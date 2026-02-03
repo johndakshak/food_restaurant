@@ -491,7 +491,7 @@ nav h1 span {
 /* MENU SECTION */
 
 .menu {
-
+    position: relative;
 }
 
 .menu #title {
@@ -524,33 +524,276 @@ nav h1 span {
     text-decoration: none;
     color: black;
     font-weight: 700;
-    /* font-size: 20px; */
 }
 
 .menu .items a:nth-child(1) {
     color:  rgba(255, 159, 13, 1);
 }
 
-.menu-img div:nth-child(1) {
+.menu-img {
     display: flex;
     align-items: center;
-    position: relative;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 80px;
+    margin-right: 50px;
 }
 
-.menu .menu-img div:nth-child(1) img:nth-child(2) {
+.menu-img img:nth-child(1) {
     position: relative;
 }
 
-.menu .menu-img div:nth-child(1) img:nth-child(2) {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
+.menu-img #img-1 {
+    background-color: red;
+}
+
+.menu #img-2 {
+    width: 350px;
     position: absolute;
-    left: 100px;
+    top: 255px;
+    left:155px;
+}
+
+.menu-img div:nth-child(2) img {
+    width: 80px;
+    height: 79px;
+}
+
+#number-alphabet{
+    display: flex;
+    position: relative;
+    gap: 20px
+}
+
+/* GROUP NUMBER */
+
+.groups-1 {
+    display: flex;
+    gap: 10px;
+}
+
+.groups-1 div {
+    display: flex;
+    flex-direction: column;
+}
+
+.groups-2 {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.groups-2 div {
+    display: flex;
+    flex-direction: column;
+}
+
+.groups-3 {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.groups-3 div {
+    display: flex;
+    flex-direction: column;
+}
+
+.groups-4 {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.groups-4 div {
+    display: flex;
+    flex-direction: column;
+}
+
+.group-number h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.group-number p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 18px 0px;
+}
+
+.group-number span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 159, 13, 1);
+    font-weight: 700;
+}
+
+
+/* GROUPS ALPHABET */
+
+.groups-a {
+    display: flex;
+    gap: 10px;
+}
+
+.groups-a div {
+    display: flex;
+    flex-direction: column;
+}
+
+.groups-b {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.groups-b div {
+    display: flex;
+    flex-direction: column;
+}
+
+.groups-c {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.groups-c div {
+    display: flex;
+    flex-direction: column;
+}
+
+.groups-d {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.groups-d div {
+    display: flex;
+    flex-direction: column;
+}
+
+.groups-alphabet h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.groups-alphabet p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 18px 0px;
+}
+
+.groups-alphabet span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 159, 13, 1);
+    font-weight: 700;
+}
+
+/* CHEFS SECTION */
+
+.chefs {
+    margin-top: 100px;
+}
+
+.chefs .title {
+    font-family: "Great Vibes", cursive;    
+    color:  rgba(255, 159, 13, 1);
+    font-size: 32px;
+    font-weight: 400;
+    display: flex;
+    justify-self: center;
+}
+
+.chefs h4 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.chefs h4 span {
+    color:  rgba(255, 159, 13, 1);   
+}
+
+.chef-img {
+    display: flex;
+    justify-self: center;
+    gap: 20px;
+    position: relative;
+}
+
+.chef-img img {
+    width: 272px;
+    height: 351px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-top: 50px;
+    /* position: relative; */
+}
+
+.chef-img .card1 div{
+    width: 181px;
+    height: 67px;
+    background-color: black;
+    color: white;
+    border-bottom-left-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    gap: 10px;
+    position: absolute;
+    bottom: 4px;
+}
+
+.chef-img .card2 div{
+    width: 181px;
+    height: 67px;
+    background-color: black;
+    color: white;
+    border-bottom-left-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    gap: 10px;
+    position: absolute;
+    bottom: 4px;
+}
+
+.chef-img .card3 div{
+    width: 181px;
+    height: 67px;
+    background-color: black;
+    color: white;
+    border-bottom-left-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    gap: 10px;
+    position: absolute;
+    bottom: 4px;
+}
+
+.chef-img .card4 div{
+    width: 181px;
+    height: 67px;
+    background-color: black;
+    color: white;
+    border-bottom-left-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    gap: 10px;
+    position: absolute;
+    bottom: 4px;
 }
 
 
 
+.chef-img p {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
