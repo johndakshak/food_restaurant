@@ -790,10 +790,350 @@ nav h1 span {
     bottom: 4px;
 }
 
-
-
 .chef-img p {
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.chefs button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    width: 155px;
+    height: 50px;
+    border-radius: 25px;
+    background: white;
+    border: 2px solid rgba(255, 159, 13, 1);
+    font-size: 16px;
+    color: black;
+    margin-top: 50px;
+}
+
+/* TESTIMONIALS SECTION */
+
+.testimonials {
+    margin-top: 100px;
+}
+
+.testimonials .title {
+    font-family: "Great Vibes", cursive;    
+    color:  rgba(255, 159, 13, 1);
+    font-size: 32px;
+    font-weight: 400;
+    margin-left: 100px;
+}
+
+.testimonials h4 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.container {
+    position: relative;
+}
+
+.container #user-img {
+    position: absolute;
+    left: 610px;
+    bottom: 470px;
+}
+
+.container .response {
+    text-align: center;
+    width: 850px;
+    /* height: 450px; */
+    background-color: black;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+    padding: 0px 100px;
+    padding-top: 180px;
+    padding-bottom: 50px;
+}
+
+.container .quote {
+    display: flex;
+}
+
+.container p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    margin: 20px 0px;
+}
+
+.container .name {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .position {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .stars {
+    display: flex;
+    gap: 10px;
+}
+
+.testimonials .circle {
+    display: flex;
+    justify-self: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+/* ACTIVE PROCESS SECTION */
+
+.active-process {
+    background-image: url(images/unsplash_E6DsqnZbZ4o.png);
+    color: white;   
+    padding: 100px;
+    margin-top: 200px;
+    
+}
+
+.active-process #title {
+    font-family: "Great Vibes", cursive;    
+    color:  rgba(255, 159, 13, 1);
+    font-size: 32px;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.active-process h4 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    display: flex;
+    justify-self: end;
+    text-align: right;
+    margin: 20px 0px;
+}
+
+.active-process #we {
+    color:  rgba(255, 159, 13, 1);
+}
+
+.active-process p {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 651px;
+    display: flex;
+    justify-self: end;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.active-process .play-btn {
+    display:  flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.active-process .play-btn div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.play-btn button {
+    width: 190px;
+    height: 60px;
+    border: 1px solid rgba(255, 159, 13, 1);
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 700;
+    background: transparent;
+}
+
+.play-btn .bx-play {
+    background: rgba(255, 159, 13, 1);
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.active-process .play-btn span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* BLOG SECTION */
+
+.blog {
+    margin-top: 200px;
+}
+
+.blog #title {
+    font-family: "Great Vibes", cursive;    
+    color:  rgba(255, 159, 13, 1);
+    font-size: 32px;
+    font-weight: 400;
+    display: flex;
+    justify-self: center;
+}
+
+.blog h4 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.blog #we {
+    color:  rgba(255, 159, 13, 1);
+}
+
+.blog .img-container img {
+    width: 370px;
+    height: 299px;
+}
+
+.blog .img-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.blog .cont-1 {
+    background-color: black;
+    color: white;
+    
+}
+
+.img-container .cont-1 {
+    border: 1px solid rgba(255, 159, 13, 1);
+}
+
+.blog .blog-details {
+    padding: 30px;
+}
+
+.blog .icons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog .icons-container div {
+    display: flex;
+    gap: 10px;
+}
+
+.blog .icons-container div .bx-message-dots {
+    color:  rgba(255, 159, 13, 1);
+
+}
+
+.cont-1 #date {
+    font-size: 16px;
+    font-weight: 400;
+    color:  rgba(255, 159, 13, 1);
+    padding-top: 30px;
+}
+
+.cont-1 #text {
+    width: 300px;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cont-1 #learn-more {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* CALL TO ACTION */
+
+.call-to-action {
+    margin: 0px 150px;
+    margin-top: 100px;
+    border-bottom: 1px solid rgba(255, 159, 13, 1);
+}
+
+.support-container span {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.support-container #title {
+    color:  rgba(255, 159, 13, 1);
+}
+
+.support-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.support-container div {
+    display: flex;
+    align-items: center;
+}
+
+.support-container input {
+    background:  rgba(255, 159, 13, 1);
+    width: 300px;
+    height: 50px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.support-container button {
+    background: black;
+    height: 50px;
+    color: white;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.call-to-action #caption {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+/* FOOTER */
